@@ -1,0 +1,293 @@
+    body {
+        background-color: #F8F8F8;
+
+    }
+
+    .mobile_container {
+        width: 397px;
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: 0 17px;
+    }
+
+    .header {
+        background-color: #691414;
+        width: 393px;
+        height: 33px;
+    }
+
+    .header .logo {
+        width: 35px;
+        height: 35px;
+
+    }
+
+    .header a {
+        font-size: 10px;
+        text-decoration: none;
+        color: #000000;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+
+    }
+
+    .header a:hover {
+        color: #747474;
+        transition: 0.3s;
+    }
+
+    .header a:not(:hover) {
+        color: #000000;
+        transition: 0.3s;
+    }
+
+
+
+
+    .header .radius {
+        background-color: #FFFFFF;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 11px;
+        padding-left: 4px;
+        border-top: solid 0.2px #00000057;
+        border-bottom: solid 0.2px #00000057;
+
+    }
+
+    h2 {
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    .avatar {
+        display: flex;
+        margin-top: 14px;
+        gap: 10px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 20px;
+    }
+
+    .avatar .profile img {
+        width: 123px;
+        height: 123px;
+    }
+
+    .avatar .info .tg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        width: 82px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    button svg {
+        width: 14px;
+        height: 14px;
+        flex-shrink: 0;
+    }
+
+    .info button p {
+        color: #000000;
+        font-size: 9px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+
+    .avatar .info .inst {
+        width: 35px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+       .avatar .info .hz {
+        width: 35px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .avatar .info .mail {
+        width: 35px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .avatar .info .mail p {
+        font-size: 12px;
+        margin-top: 9px;
+    }
+
+    .avatar .info button {
+        background-color: #000000;
+        margin-top: 18px;
+        border: solid 0.2px black;
+
+    }
+
+    .avatar .info button:hover {
+        background-color: rgba(221, 217, 217, 0.288);
+        transition: 0.3s;
+    }
+
+    .avatar .info button:not(:hover) {
+        background-color: #ffffff;
+        transition: 0.3s;
+    }
+
+
+    .content {
+        height: 754px;
+        width: 359px;
+
+    }
+
+    .content .bigDiv {
+        width: 359px;
+        height: 175px;
+        background-color: #D9D9D9;
+    }
+
+    .sectoreOne {
+        margin-top: 9px;
+        display: flex;
+        gap: 9px;
+    }
+
+    .sectoreOne .podsectore1 {
+        height: 175px;
+        width: 175px;
+        background-color: #D9D9D9;
+    }
+
+    .sectoreOne .podsectore2 {
+        height: 175px;
+        width: 175px;
+        background-color: #D9D9D9;
+    }
+
+
+
+
+
+    .sectoreTwo {
+        margin-top: 9px;
+        display: flex;
+        gap: 9px;
+    }
+
+    .sectoreTwo .podsectore3 {
+        height: 175px;
+        width: 175px;
+        background-color: #D9D9D9;
+    }
+
+    .sectoreTwo .podsectore4 {
+        height: 175px;
+        width: 175px;
+        background-color: #D9D9D9;
+    }
+
+
+
+
+
+
+
+        .sectoreThree {
+        margin-top: 9px;
+        display: flex;
+        gap: 9px;
+    }
+
+    .sectoreThree .podsectore5 {
+        height: 175px;
+        width: 175px;
+        background-color: #D9D9D9;
+    }
+    
+    .sectoreThree .podsectore6 {
+        height: 175px;
+        width: 175px;
+        background-color: #D9D9D9;
+    }
+    
+    
+    
+    
+    
+    
+    .contact {
+        display: flex;
+        gap: 2px;
+    }
+    .contact button{
+        background-color: #000000;
+    }
+    .info .tg img {
+        width: 14px;
+        height: 14px;
+    }
+
+.info a{
+    text-decoration: none;
+}
+
+    .info .name {
+        margin-top: -7px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .info .name h2 {
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    .info .profession {
+        margin-top: -20px;
+
+    }
+
+    .info .profession h3 {
+        margin-top: 20px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+    }
+
+    .footer{
+        margin-top: -20px;
+    }
+    .footer p {
+        font-size: 14px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        text-align: center;
+    }
