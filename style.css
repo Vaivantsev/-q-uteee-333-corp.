@@ -84,13 +84,7 @@
     }
 
     .avatar .info .tg {
-        /* display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 3px;
-        width: 82px;
-        height: 20px;
-        cursor: pointer; */
+
         width: 50px;
         height: 20px;
         display: flex;
