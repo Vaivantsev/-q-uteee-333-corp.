@@ -291,3 +291,127 @@
         font-style: normal;
         text-align: center;
     }
+/* Для очень маленьких телефонов (iPhone SE, Galaxy Fold и др.) */
+@media (max-width: 397px) {
+    .mobile_container {
+        width: 100%;
+    }
+    
+    .header {
+        width: 100%;
+    }
+    
+    .content {
+        width: 100%;
+    }
+    
+    .content .bigDiv {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 359 / 175;
+    }
+    
+    .sectoreOne,
+    .sectoreTwo,
+    .sectoreThree {
+        flex-wrap: wrap;
+        gap: 9px;
+    }
+    
+    .sectoreOne .podsectore1,
+    .sectoreOne .podsectore2,
+    .sectoreTwo .podsectore3,
+    .sectoreTwo .podsectore4,
+    .sectoreThree .podsectore5,
+    .sectoreThree .podsectore6 {
+        width: calc(50% - 4.5px);
+        height: auto;
+        aspect-ratio: 175 / 175;
+    }
+    
+    .avatar {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contact {
+        justify-content: center;
+    }
+    
+    .info .name h2 {
+        font-size: clamp(14px, 4vw, 17px);
+        text-align: center;
+    }
+    
+    .info .profession h3 {
+        font-size: clamp(11px, 3.5vw, 14px);
+        text-align: center;
+    }
+}
+
+/* Для узких телефонов (Galaxy Fold ~280px) */
+@media (max-width: 320px) {
+    .container {
+        margin: 0 10px;
+    }
+    
+    .sectoreOne .podsectore1,
+    .sectoreOne .podsectore2,
+    .sectoreTwo .podsectore3,
+    .sectoreTwo .podsectore4,
+    .sectoreThree .podsectore5,
+    .sectoreThree .podsectore6 {
+        width: 100%;
+    }
+    
+    .contact {
+        gap: 8px;
+    }
+    
+    .avatar .profile img {
+        max-width: 100px;
+    }
+}
+
+/* Для больших телефонов (iPhone 14 Pro Max и др.) */
+@media (min-width: 398px) and (max-width: 430px) {
+    .mobile_container {
+        width: 100%;
+        max-width: 430px;
+    }
+    
+    .header {
+        width: 100%;
+    }
+    
+    .content .bigDiv {
+        width: 100%;
+    }
+    
+    .sectoreOne .podsectore1,
+    .sectoreOne .podsectore2,
+    .sectoreTwo .podsectore3,
+    .sectoreTwo .podsectore4,
+    .sectoreThree .podsectore5,
+    .sectoreThree .podsectore6 {
+        width: calc(50% - 4.5px);
+    }
+}
+
+/* Для альбомной ориентации */
+@media (max-width: 800px) and (orientation: landscape) {
+    .avatar {
+        flex-direction: row;
+    }
+    
+    .content {
+        height: auto;
+    }
+    
+    .sectoreOne,
+    .sectoreTwo,
+    .sectoreThree {
+        flex-wrap: wrap;
+    }
+}
