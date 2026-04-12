@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #F8F8F8;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.container {
+    margin: 0px auto;
+    width: 100%;
+    padding: 0 17px; 
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    max-width: 100%;
+    margin: 14px auto 0 auto;
+    width: 100%;
+    background-color: #F8F8F8;
+    display: flex;
+    border-top: 0.2px solid black;
+    border-bottom: 0.2px solid black;
+    height: 33px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+#logo img {
+    width: 31px;
+    height: 31px;
+    filter: brightness(0);
+}
+
+#linkS {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0px;
+}
+
+#linkS a {
+    display: block;
+    margin-left: auto;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+#portfolio:hover,
+#resume:hover {
+    color: #747474;
+}
+
+#resume {
+    margin-right: 17px;
+}
+
+#fio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#fio img {
+    max-width: 96px;
+    width: 100%;
+    height: auto;
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+
+#qut {
+    filter: brightness(0);
+}
+
+#babIv img {
+    max-width: 174px;
+    width: 100%;
+    height: auto;
+    border: 0.2px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+}
+
+#vA {
+    font-size: 14px;
+}
+
+#aboutMe {
+    margin-bottom: 16px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    align-items: flex-start;
+}
+
+#rightColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+#skills h2 {
+    margin: 0;
+}
+
+#lastTxt {
+    display: flex;
+    flex-direction: column;
+}
+
+#lastTxt li {
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 7px;
+}
+
+#lastTxt ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li::marker {
+    font-size: 0.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
